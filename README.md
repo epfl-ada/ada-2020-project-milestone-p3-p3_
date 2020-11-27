@@ -76,4 +76,4 @@ The milestones are the same as in the section above.
 	* Week 3: Main focus will lie on writing the report, generally participation in all due tasks for week 3
 
 ### Questions for TAs (optional):
-We were really unsure to determine the amount of time each task would take, which is why we included research question 4, just in case that we have the time for it. We hope that this is not a problem. Rather than not stating it all, we wanted to state it with the condition of doing it if we have time to spare.
+We were really unsure about the amount of time each task would take, which is why we included research question 4, just in case that we have the time for it. We hope that this is not a problem. Rather than not stating it at all, we wanted to state it with the condition of doing it if we have some time to spare.
