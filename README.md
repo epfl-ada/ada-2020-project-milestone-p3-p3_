@@ -3,7 +3,7 @@
 ## Title: Investigating Friendships across Time and Space
 
 ### Abstract
-While the original publication explored human mobility in building models in respect to social connection and time, the goal of our creative extension is to turn the tables: We want to inspect how properties of friendship networks differ in respect to where an individual resides and the time of the year.  
+While the original publication explored human mobility in building models in respect to social connection and time, the goal of our creative extension is to turn the tables: we want to inspect how properties of friendship networks differ in respect to where an individual resides and the time of the year.  
 Similar to milestone 2, we will assign a home location to each user within the **Gowalla** and **Brightkite** datasets that the original publication used. Using these home locations, we are then able to differentiate individuals based on whether they live in a sizeable city or not, and based on which country they reside in. Using this split, we will investigate different characteristics of each individual social network; this includes the amount of friends individuals have and the frequency of visiting friends. Additionally, it is our goal to detect certain sub-networks within these huge friendship networks that correspond to a group of friends.  
 Finally, if time allows it, we want to investigate how strong the interconnection (in respect to inter-country friendships) between countries is, and whether they depend on characteristics such as the spoken languages and the practiced religions.
 
