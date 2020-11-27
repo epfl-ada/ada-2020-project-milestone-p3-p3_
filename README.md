@@ -3,9 +3,9 @@
 ## Title: Investigating Friendships across Time and Space
 
 ### Abstract
-While the original publication explored human mobility in building models in respect to social connection and time, the goal of our creative extension is to turn the tables: we want to inspect how properties of friendship networks differ in respect to the location where an individual resides and the time of the year.  
+While the original publication explored human mobility in building models with respect to social connection and time, the goal of our creative extension is to turn the tables: we want to inspect how properties of friendship networks differ with respect to the location where an individual resides and the time of the year.  
 Similar to milestone 2, we will assign a home location to each user within the **Gowalla** and **Brightkite** data sets that the original publication used. Using these home locations, we are then able to differentiate individuals based on the country and the city they reside in. Using this split, we will investigate different characteristics of each individual social network; this includes the amount of friends individuals have and the frequency of visiting friends. Additionally, it is our goal to detect certain sub-networks within these huge friendship networks that correspond to a group of friends.  
-Finally, if time allows it, we want to investigate how strong the interconnection (in respect to inter-country friendships) between countries is, and whether they depend on characteristics such as the spoken languages and the practiced religions.
+Finally, if time allows it, we want to investigate how strong the interconnection (with respect to inter-country friendships) between countries is, and whether they depend on characteristics such as the spoken languages and the practiced religions.
 
 
 ### Research Questions
@@ -37,7 +37,7 @@ To determine the frequency of visits between friends we will use the same method
 
 We will use the `networkx` library to explore different community detection algorithms in order to answer question 3. The resulting communities will then be analyzed with respect to their location. We will check if they correspond to a particular city, and how many of the users in that city they include. We might also visualize the communities on a global/country scale for a clearer picture of the structure of the communities across the world. The chosen scale will depend on the size and structure of the communities we end up with.
 
-Interconnection between countries will be based on how many edges in the social network graph have nodes in both countries.
+Interconnection between countries will be based on how many edges in the social network graph have nodes in both countries. Here we will probably have to limit ourselves to countries for which there is a reasonable number of data points.
 
 In order to determine whether a user is living in a city or not, we will check if the user's home location is within a radius of a major city; where the radius is determined by the area of the corresponding city. To be exact, we draw circles around cities, such that the area occupied by the circle is identical to the real area 'A' of the city. Mathematically, this yields for the radius of the circle: `r = sqrt(A/pi)`
 
