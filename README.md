@@ -39,7 +39,7 @@ We will use the `networkx` library to explore different community detection algo
 
 Interconnection between countries will be based on how many edges in the social network graph have nodes in both countries.
 
-In order to determine whether a user is living in a city or not, we will check if the user's home location is within a radius of a major city; where the radius is determined by the area of the corresponding city. To be exact, we draw circles around cities, such that the area occupied by the circle is identical to the real area 'A' of the city. Mathematically, this yields for the radius of the circle: `r = $\sqrt(A/pi)$`
+In order to determine whether a user is living in a city or not, we will check if the user's home location is within a radius of a major city; where the radius is determined by the area of the corresponding city. To be exact, we draw circles around cities, such that the area occupied by the circle is identical to the real area 'A' of the city. Mathematically, this yields for the radius of the circle: `r = sqrt(A/pi)`
 
 ### Proposed timeline
 
