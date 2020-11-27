@@ -1,5 +1,4 @@
 ## ada-2020-project-milestone-p3-p3
-___
 
 ### Title: Detecting an influence of urban life on people's social network sizes
 
@@ -18,7 +17,7 @@ In order to determine for each user whether he/she is living either in a city or
   5. Does the frequency of communication between friends depend on the season of the year? (TODO just came tomind, but we didnt talk about this once in the abstract.bit unsure how to include this and the following questioninto the main topic, i.e. the first 4 questions)
 
 	
-## Proposed dataset
+### Proposed dataset
 
 - Gowalla and Brightkite dataset from the paper 
 	[https://snap.stanford.edu/data/loc-Gowalla.html]
@@ -60,5 +59,5 @@ Week 1: Devrim will visualize the friendships, such thatthe resulting figure con
 Week 2: At this point, much of our next steps will dependon the results of the previous week. For this reason, this week will start by exchanging results we gained from our previously separated tasks. Carl will probably deal with assigning a ”is_in_city” feature to each  user, since he dealt with implementing the areas of cities. Nina and Devrim will at this point deal with whatever is left to do. 
 Week 3: We will work together on evaluating all our final results, writing the report and coming up with a good outline for a video.
 	
-## Questions for TAs (optional):
+### Questions for TAs (optional):
 We are really excited for this Milestone, our only worry is that our idea is not sufficiently related to the focus of the original paper, mobility. We wanted to integrate mobility more by e.g. by investigating the effect of moving from the countryside to the city (or the other way round) has on the size of people’s friends circles, but we did not find suitable data and hence decided to only investigate static properties of social networks.
