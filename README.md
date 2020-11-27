@@ -23,7 +23,7 @@ For the following research questions, we are interested in how they behave on a 
 
 * Use web-scraping on the [Wikipedia list of cities by country](https://en.wikipedia.org/wiki/Lists_of_cities_by_country) to obtain **city areas** for the cities in the World Cities dataset.
 
-* Use web-scraping on the [Wikipedia list of countries](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population) in order to obtain country specific **languages** and **religions**. (Research Question 4)
+* Use web-scraping on the [Wikipedia list of countries](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population) in order to obtain country specific **languages** and **religions** (research question 4).
 
 ### Methods
 
