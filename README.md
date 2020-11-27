@@ -35,13 +35,11 @@ For our fourth research question we also need to know the language and religion 
 #### Analysis:
 To determine the frequency of visits between friends we will use the same method as in the original paper. That is, count check-ins that fall within a certain distance of a friend's home.
 
-We will use the `networkx` library to explore different community detection algorithms in order to answer question 3. The resulting communities will then be analyzed with respect to their location. We will check if they correspond to a particular city, and how many of the users in that city they include. We might also visualize the communities on a global/country scale for a clearer picture of the structure of the communities across the world. The chosen scale will will depend on the size and structure of the communities we end up with.
+We will use the `networkx` library to explore different community detection algorithms in order to answer question 3. The resulting communities will then be analyzed with respect to their location. We will check if they correspond to a particular city, and how many of the users in that city they include. We might also visualize the communities on a global/country scale for a clearer picture of the structure of the communities across the world. The chosen scale will depend on the size and structure of the communities we end up with.
 
 Interconnection between countries will be based on how many edges in the social network graph have nodes in both countries.
 
-In order to determine whether an user is living in a city or not, we will check if the user's home location is within a radius of a major city; where the radius is determined by the area of the corresponding city. To be exact, we draw circles around cities, such that the area occupied by the circle is identical to the real area of the city. Mathematically, this yields for the radius of the circle:
-
-`r = sqrt(A/pi)`
+In order to determine whether a user is living in a city or not, we will check if the user's home location is within a radius of a major city; where the radius is determined by the area of the corresponding city. To be exact, we draw circles around cities, such that the area occupied by the circle is identical to the real area of the city. Mathematically, this yields for the radius of the circle: `r = sqrt(A/pi)`
 
 ### Proposed timeline
 
