@@ -1,7 +1,7 @@
-## ada-2020-project-milestone-p3-p3_
+## ada-2020-project-milestone-p3-p3
 ___
-### Detecting an influence of urban life on people's social network sizes
 
+### Title: Detecting an influence of urban life on people's social network sizes
 
 ### Abstract
 
