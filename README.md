@@ -11,8 +11,8 @@ Finally, if time allows it, we want to investigate how strong the interconnectio
 ### Research Questions
 For the following research questions, we are interested in how they behave on a global scale and across different countries/continents:
 1. Are inhabitants of cities more likely to have more friends than individuals living in rural areas?
-2. How often do users visit each other? Does it depend on whether they live in a city or not or the season of the year?
-3. Can we detect certain loosely connected sub-networks which corresponds to a circle of friends or a city? If yes, what is the probability that a user is part such a circle of friends?
+2. How often do users visit each other? Does it depend on whether they live in a city or not or on the season of the year?
+3. Can we detect certain loosely connected sub-networks which corresponds to a circle of friends or a city? If yes, what is the probability that a user is part of such a circle of friends?
 4. How does the interconnection between countries/continents differ? Does it depend on the language or religion?
 
 ### Proposed dataset
