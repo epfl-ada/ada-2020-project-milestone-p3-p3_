@@ -38,19 +38,19 @@ Calculating the extend of a city (linked to world cities data set). Here we cons
 ### Proposed timeline
 
 Week 1:
-  1. For each of the datasets, visualize the corresponding social network geographically.
-  2. For each of the cities, determine some way of deciding, whether a coordinate is within its area (i.e. individuals home is part of the city) or not.
-  3. Determine properties of the general social networks: How many friends in average? Can we detect loosely connected sub-networks?
+  - For each of the datasets, visualize the corresponding social network geographically.
+  - For each of the cities, determine some way of deciding, whether a coordinate is within its area (i.e. individuals home is part of the city) or not.
+  - Determine properties of the general social networks: How many friends in average? Can we detect loosely connected sub-networks?
   
 Week 2:
-  1. Start investigating the differences in friendships inrespect to the users’ home location.
-  2. (TODO only if we decide we want and we have theright data) Look at the seasonal difference for thecommunication between friends.
-  3. (TODO only if we decide to and have the data)For each friendship, investigate the proportion ofinitiated communications between two friends.
+  - Start investigating the differences in friendships inrespect to the users’ home location.
+  - (TODO only if we decide we want and we have theright data) Look at the seasonal difference for thecommunication between friends.
+  - (TODO only if we decide to and have the data)For each friendship, investigate the proportion ofinitiated communications between two friends.
 
 Week 3:
-  1. Evaluation of results.
-  2. Writing the report.
-  3. Creating a video
+  - Evaluation of results.
+  - Writing the report.
+  - Creating a video
 
 ### Organization within the team
 
