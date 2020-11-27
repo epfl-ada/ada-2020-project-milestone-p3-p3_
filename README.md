@@ -21,14 +21,23 @@ For the following research questions, we are interested in how they behave on a 
 
 * The [World Cities](https://simplemaps.com/data/world-cities) data set. This data set yields the GPS coordinates and the population of the 26568 biggest cities of the world. However, it does not contain the extent of each of those cities, which we thus have to determine in a different fashion.
 
-* Use web-scraping on the [Wikipedia list of countries](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population) in order to obtain country specific *lanuages* and *religions*. (Research Question 4)
+* Use web-scraping on the [Wikipedia list of countries](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population) in order to obtain country specific *languages* and *religions*. (Research Question 4)
 
 * Use web-scarping on the [Wikipedia list of cities by country](https://en.wikipedia.org/wiki/Lists_of_cities_by_country) to obtain *city areas* for the cities in the World Cities dataset.
 
 ### Methods
 
-Calculating the extend of a city (linked to world cities data set). Here we consider two options, with option 1s eemingly being more precise and effective:
-* Gather another dataset, which contains the area for each city (possibly crawl Wikipedia). For each city, we will set a circle around it with its area being the actual area of the city.
+#### Data aggregation:
+Since the World Cities data set only contains the GPS location of a city we need an estimate of how far a users home can be from this location. This is achieved by scraping wikipedia for the area of these cities. Then we will calculate the home of a user with the same method used in the original paper (dividing the world into 25x25 km grid and taking average location in the cell with the most checkins) and check if it falls within this distance.
+
+For our fourth research question we also need to know the language and religion of the countries. This will also be retrieved by scraping.
+
+#### Analysis:
+To determine the frequency of visits between friends we will use the same method as in the original paper. That is, count check-ins that fall within a certain distance of a friend's home.
+
+We will use the networkx library to explore different community detection algorithms in order to answer question 3. The resulting communities will then be analysed with respect to their location. We will check if they correspond to a particular city, and how many of the users in that city they include. We might also visualise the communities on a global/country scale for a clearer picture of the structure of the communities across the world. The chosen scale will will depend on the size and structure of the communities we end up with. 
+
+Interconnection between countries will be based on how many edges in the social network graph have nodes in both countries. 
 
 
 
