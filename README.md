@@ -71,9 +71,9 @@ The milestones are the same as in the section above.
 	* Week 2: Investigates research questions together with Devrim
 	* Week 3: Focus on evaluating the results, but generally participation in all due tasks for week 3
 * Carl:
-	* Week 1: Programs function for determining, whether a location is withing a city. Also deals with splitting the data.
+	* Week 1: Programs function for determining whether a location is within a city. Also deals with splitting the data.
 	* Week 2: Programs function to detect sub-networks within a friendship network.
-	* Week 3: Main focus will lie on writing the report, generally participation in all due tasks for week 3
+	* Week 3: Main focus lies on writing the report, generally participation in all due tasks for week 3
 
 ### Questions for TAs (optional):
 We were really unsure about the amount of time each task would take, which is why we included research question 4, just in case that we have the time for it. We hope that this is not a problem. Rather than not stating it at all, we wanted to state it with the condition of doing it if we have some time to spare.
