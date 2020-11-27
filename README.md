@@ -10,11 +10,10 @@ In order to determine for each user whether he/she is living either in a city or
 	
 ### Research Questions
 
-  1. We want to compare continents:
-  2. Given a social network whose nodes are spaced according to the respective user’s estimated home location, can we detect certain loosely connected subnetworks which corresponds to a circle of friends or a city?
-  3. Are people in cities more likely to have more friends in the social network than people living in rural areas?
-  4. How does the frequency of contacts between friends correlate with the fact that they are in the city versus in the rural areas?
-  5. Does the frequency of communication between friends depend on the season of the year? (TODO just came tomind, but we didnt talk about this once in the abstract.bit unsure how to include this and the following questioninto the main topic, i.e. the first 4 questions)
+  1. Given a social network whose nodes are spaced according to the respective user’s estimated home location, can we detect certain loosely connected subnetworks which corresponds to a circle of friends or a city?
+  2. Are people in cities more likely to have more friends in the social network than people living in rural areas?
+  3. How does the frequency of contacts between friends correlate with the fact that they are in the city versus in the rural areas?
+  4. Does the frequency of communication between friends depend on the season of the year? (TODO just came tomind, but we didnt talk about this once in the abstract.bit unsure how to include this and the following questioninto the main topic, i.e. the first 4 questions)
 
 	
 ### Proposed dataset
