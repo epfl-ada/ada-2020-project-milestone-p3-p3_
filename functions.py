@@ -15,16 +15,23 @@ def load_data(social_network="Gowalla"):
     names_checkins = ["user_id", "checkin_time", "latitude",
                         "longitude", "location_id"]
 
-    # load them into dfs
-    edges = pd.read_table(social_network + "_edges.txt",
-        names=names_edges).dropna()
-    checkins = pd.read_table(social_network + "_totalCheckins.txt",
-        names=names_checkins).dropna()
-
+    if social_network == "Brightkite":
+        
+        # load them into dfs
+        edges = pd.read_table("./data/loc-brightkite_edges.txt.gz",
+            names=names_edges).dropna()
+        checkins = pd.read_table("./data/loc-brightkite_totalCheckins.txt.gz",
+            names=names_checkins).dropna()
+    if social_network == "Gowalla":
+        edges = pd.read_table("./data/loc-gowalla_edges.txt.gz",
+            names=names_edges).dropna()
+        checkins = pd.read_table("./data/loc-gowalla_totalCheckins.txt.gz",
+            names=names_checkins).dropna()
+        
     return checkins, edges
 
 def discretize_checkins(checkins, km_to_degrees=.22522522522):
-    checkins[["disc_tuple"]] = ((checkins[["latitude", "longitude"]] / km_to_degrees).astype('int') * km_to_degrees).apply(tuple, axis=1)
+    checkins["disc_tuple"] = ((checkins[["latitude", "longitude"]] / km_to_degrees).astype('int') * km_to_degrees).apply(tuple, axis=1)
     return checkins
 
 def get_home_locations(checkins):
