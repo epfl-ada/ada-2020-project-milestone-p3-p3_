@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import reverse_geocoder as rg
 from obspy.geodetics import degrees2kilometers
+from geopy.distance import distance
 
 def get_countries(homes):
     right_way = [(row[1], row[0]) for row in homes.values]
