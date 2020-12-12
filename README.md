@@ -1,4 +1,4 @@
-# Title: Investigating Friendships across Time and Space
+# Title: EfficientNetworking: How To Make Friends Across Time and Space
 
 ## ada-2020-project-milestone-p3-p3_
 
@@ -10,7 +10,7 @@ Friendships have a huge impact on your mental health and happiness. Good friends
 
 Using the [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html) and [Brighkite](https://snap.stanford.edu/data/loc-Brightkite.html) Social Network data, we want to provide insights about external factors that determine someone's social cirlce. We will explore the influence of the place of residence and the time of the year on each individual's social network. 
 
-If you are planing to move in the near future, and one of the determining factors is the  to eat out in Chicago, our data story should help you make the right choice and understand how social factors and food quality influence one another.
+If you are planing to move in the near future, and a determining factor is the possibility to expand your social network as efficiently as possible, then our research provides you with a starting point where and when to look.
 
 <!---
 While the original publication explored human mobility in building models with respect to social connection and time, the goal of our creative extension is to turn the tables: we want to inspect how properties of friendship networks differ with respect to the location where an individual resides and the time of the year.  
