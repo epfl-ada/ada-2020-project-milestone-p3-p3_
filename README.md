@@ -1,12 +1,22 @@
-# ada-2020-project-milestone-p3-p3_
+# Title: EfficientNetworking: How To Make Friends Across Time and Space
 
-## Title: Investigating Friendships across Time and Space
+## ada-2020-project-milestone-p3-p3_
+
+Check out our [blog post](https://nina-mainusch.github.io/ADA_website/)
 
 ### Abstract
+
+Friendships have a huge impact on your mental health and happiness. Good friends relieve stress, provide comfort and joy, and prevent loneliness and isolation. There are countless psychological guides on how to make friends. But what if it’s not just your social skills that determine whether you make friends? What if you could multiply your chances of making friends by moving to a certain place? At a certain time of the year?
+
+Using the [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html) and [Brighkite](https://snap.stanford.edu/data/loc-Brightkite.html) Social Network data, we want to provide insights about external factors that determine someone's social cirlce. We will explore the influence of the place of residence and the time of the year on each individual's social network. 
+
+If you are planing to move in the near future, and a determining factor is the possibility to expand your social network as efficiently as possible, then our research provides you with a starting point where and when to look.
+
+<!---
 While the original publication explored human mobility in building models with respect to social connection and time, the goal of our creative extension is to turn the tables: we want to inspect how properties of friendship networks differ with respect to the location where an individual resides and the time of the year.  
 Similar to milestone 2, we will assign a home location to each user within the **Gowalla** and **Brightkite** data sets that the original publication used. Using these home locations, we are then able to differentiate individuals based on the country and the city they reside in. Using this split, we will investigate different characteristics of each individual social network; this includes the amount of friends individuals have and the frequency of visiting friends. Additionally, it is our goal to detect certain sub-networks within these huge friendship networks that correspond to a group of friends.  
 Finally, if time allows it, we want to investigate how strong the interconnection (with respect to inter-country friendships) between countries is, and whether they depend on characteristics such as the spoken languages and the practiced religions.
-
+--->
 
 ### Research Questions
 For the following research questions, we are interested in how they behave on a global scale and across different countries/continents:
