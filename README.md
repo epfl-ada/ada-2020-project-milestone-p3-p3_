@@ -8,7 +8,7 @@ Check out our [blog post](https://nina-mainusch.github.io/ADA_website/)
 
 Friendships have a huge impact on your mental health and happiness. Good friends relieve stress, provide comfort and joy, and prevent loneliness and isolation. There are countless psychological guides on how to make friends. But what if it’s not just your social skills that determine whether you make friends? What if you could multiply your chances of making friends by moving to a certain place? At a certain time of the year?
 
-Using the [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html) and [Brighkite](https://snap.stanford.edu/data/loc-Brightkite.html) Social Network data, we want to provide insights about external factors that determine someone's social cirlce. We will explore the influence of the place of residence and the time of the year on each individual's social network. 
+Using the [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html) and [Brighkite](https://snap.stanford.edu/data/loc-Brightkite.html) Social Network data, we want to provide insights about external factors that determine someone's social network, like the place of residence and the time of the year.
 
 If you are planing to move in the near future, and a determining factor is the possibility to expand your social network as efficiently as possible, then our research provides you with a starting point where and when to look.
 
